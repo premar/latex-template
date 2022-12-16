@@ -1,14 +1,24 @@
-\documentclass{article}
-\input{import}
-\input{option}
+\documentclass{report}
+\input{conf/import}
+\input{conf/option}
 
 \begin{document}
 
 \input{cover}
 
+\input{misc/hslu_wipro}
+
+\pagenumbering{roman}
+
 \tableofcontents
 \clearpage
 
+\pagenumbering{arabic}
+
+\input{content}
+
 \printglossaries
+
+\printbibliography
 
 \end{document}
